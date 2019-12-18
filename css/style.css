@@ -11,12 +11,12 @@ body, html, section {
 
 h1, h2, h3, h4, h5, h6, p{
     font-family: 'Handlee', cursive;
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 .fs-img-1 {
   /* The image used */
-  background-image: url("/img/astronomy-dark-design.jpg");
+  background-image: url("/img/silhouette-of-person-holding-glass-mason-jar-1274260.jpg");
 
   /* Full height */
   height: 100%;
@@ -28,13 +28,13 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .black-shadow {
-    text-shadow: 4px 4px 10px rgba(0,0,0)
+    background-color: 4px 4px 10px rgba(0,0,0);
+    text-shadow: 4px 4px 10px rgba(0,0,0);
 }
 
 caption{
     font-size: 8px;
 }
-
 /* pclass wo tukaeeee*/
 
 .fs-img-2 {
@@ -115,9 +115,22 @@ caption{
   background-size: cover;
 }
 
-.fs-img-8 {
+.fs-img-5 {
   /* The image used */
-  background-image: url("");
+  background-image: url("/img/artistic-blossom-bright-clouds-207962.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-7 {
+  /* The image used */
+  background-image: url("/img/monochrome-photo-of-couple-holding-hands-1004014.jpg");
 
   /* Full height */
   height: 100%;
@@ -130,7 +143,7 @@ caption{
 
 .fs-img-9 {
   /* The image used */
-  background-image: url("");
+  background-image: url("/img/woman-stands-on-mountain-over-field-under-cloudy-sky-at-847483.jpg");
 
   /* Full height */
   height: 100%;
@@ -140,6 +153,7 @@ caption{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 #video-1 {
   position: absolute;
